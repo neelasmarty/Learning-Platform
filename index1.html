@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LearnHub</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <h1>LearnHub</h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Tutorials</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="auth-buttons">
+      <button>Sign Up</button>
+      <button>Log In</button>
+    </div>
+  </nav>
+
+  <!-- WELCOME BANNER -->
+  <header class="banner">
+    <h2>Welcome to LearnHub</h2>
+    <p>Your one-stop destination to master coding and build real-world projects.</p>
+    <div class="cta">
+      <button>Start Learning</button>
+      <button>Browse Projects</button>
+    </div>
+    <input type="text" placeholder="Search tutorials or projects..." />
+  </header>
+
+  <!-- SLIDER -->
+  <section class="slider-container swiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">🚀 New: Java REST API Tutorial</div>
+      <div class="swiper-slide">🌟 Featured: Python Automation Project</div>
+      <div class="swiper-slide">📢 Announcements: Hackathon Coming Soon!</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 LearnHub | Built by Students for Students</p>
+  </footer>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script>
+    new Swiper('.swiper', {
+      loop: true,
+      autoplay: { delay: 3000 }
+    });
+  </script>
+
+</body>
+</html>
